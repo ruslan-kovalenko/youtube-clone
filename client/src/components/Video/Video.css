@@ -1,0 +1,15 @@
+.video-container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+video {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-container {
+    width: 85%;
+    margin: 20px auto;
+  }
+}
